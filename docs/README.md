@@ -1,4 +1,4 @@
-### [Kursusgang 1](02_Kursusgang_1.md)
+### [Kursusgang 1](01_Kursusgang.md)
 
 * Introduktion
 * MySQL - Installation og test af Workbench
@@ -13,7 +13,7 @@
 	- IN
 
 
-### [Kursusgang 2](03_Kursusgang_2.md)
+### [Kursusgang 2](02_Kursusgang.md)
 
 **SQL**
 
@@ -26,7 +26,7 @@
 * NULL værdier
 
 
-### [Kursusgang 3](04_Kursusgang_3.md)
+### [Kursusgang 3](03_Kursusgang.md)
 
 **Normalisering**
  
@@ -38,7 +38,7 @@
 **Data import**
 
 
-### [Kursusgang 4](05_Kursusgang_4.md)
+### [Kursusgang 4](04_Kursusgang.md)
 **Funktioner**
 
 * Beregninger
@@ -51,19 +51,20 @@
 * INDEX
 * CASE
 
-### [Kursusgang 5](06_Kursusgang_5.md)
+### [Kursusgang 5](05_Kursusgang.md)
 
 * PROCEDURE
 * TRIGGER
 * IMPORT CSV
 * EXPORT CSV
+* TRANSACTIONS
 
-### [Kursusgang 6](07_Kursusgang_6.md)
+### [Kursusgang 6](06_Kursusgang.md)
 
 * Sikkerhed
 * Brugere
 
-### [Mini Projekt](08_MiniProjekt.md)
+### [Mini Projekt](07_MiniProjekt.md)
 
 * Til eksamen tager vi udgangspunkt i en database som i har oprettet
 

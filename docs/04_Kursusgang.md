@@ -253,7 +253,7 @@ FROM Order_Details;
 Biblioteksopgave - [Link](https://docs.google.com/document/d/1DzlYTivp-5S8hoOtynDtkQIzDpKc2A55QAZ4VXTv208/edit?usp=sharing "https://docs.google.com/document/d/1DzlYTivp-5S8hoOtynDtkQIzDpKc2A55QAZ4VXTv208/edit?usp=sharing")
 
 
-## Næste gang d. 11. maj
+## Til næste gang:
 
 Løsning til Opgave 4
 
@@ -264,8 +264,4 @@ Overvejelser i forhold til Indexer
 
 ## Opgave 4, slides, løsning og noter 
 Du kan hente opgave 4 her som PDF - [Opgave 4](Opgave_4.pdf)
-
-noter for dag 4 - [noter dag 4]( https://drive.google.com/open?id=13OWzswBtLqkmZuzMPSzG2PEmsVexREx1  "https://drive.google.com/open?id=13OWzswBtLqkmZuzMPSzG2PEmsVexREx1")
-
-Løsning til opgave 4 - [Løsning opgave 4](sql_filer/Opgave_4.sql)
 

@@ -274,21 +274,10 @@ Det kan være du skal fjerne ekstra rækker eller ændre på datoformatet.
 Du kan hente opgave 3 her som PDF - [Opgave 3](Opgave_3.pdf)
 
 
-## Næste gang 4. maj
+## Til næste gang 
 
 - Overvejelser med hensyn til normalformer
 - ER-diagram med angivelse af alle nøgler og datatyper
 - løsning til opgave 3
 
 
-## Slides og noter dag 3
-
-slides for dag 3 - [slides dag 3](databaser_3.pdf)
-
-noter for dag 3 - [noter dag 3](https://drive.google.com/open?id=1RchUeYnNRY3maFPh3x4fER-ubY_nEG21 "https://drive.google.com/open?id=1RchUeYnNRY3maFPh3x4fER-ubY_nEG21")
-
-Løsning til opgave 3 - [Løsning opgave 3](sql_filer/Opgave_3.sql)
-
-
-
-[Retur](README.md)

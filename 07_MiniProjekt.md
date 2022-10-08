@@ -1,3 +1,5 @@
+[Retur](README.md)
+
 # Mini Projekt
 
 Som udgangspunkt for eksamen skal du oprette en database.
@@ -7,7 +9,6 @@ Det kan være en database over noget på dit arbejde eller fra din fritid.
 
 *Måske har du på dit arbejde en Excelfil der med fordel kunne overføres til en database, hvad med sportsklubben eller ....*
 
-Jeg er sikker på, at du godt kan finde på "noget" at udarbejde en database over.
 
 ## Afleveringer
 For at komme i gang med dette mini projekt er der følgende afleveringer løbende:
@@ -32,8 +33,8 @@ For at komme i gang med dette mini projekt er der følgende afleveringer løbend
 	
 **Alle** afleveringer skal fortages på Moodle i **PDF** format.
 
-
 ## Eksamen
 Til eksamen tager vi udgangspunkt i jeres database og de problemstillinger den løser.
 
 **Til eksamen skal i medbringe 3 print af jeres ER-diagram**
+
