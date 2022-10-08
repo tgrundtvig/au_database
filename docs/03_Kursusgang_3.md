@@ -1,6 +1,13 @@
-[Retur](README.md)
-
-# Kursusgang 3
+# Kursusgang 3 Normalisering og Table Joins
+1. Normalisering
+  - Første, anden og tredje normalform.
+2. Relationer mellem tabeller: OneToMany, OneToOne, ManyToMany.
+3. Join af tabeller.
+  - INNER JOIN
+  - LEFT/RIGHT JOIN
+  - OUTER JOIN
+4. Views
+5. Import / Export.
 
 ### SQL fil
 [Link til SQL fil](/sql_filer/Dag_3.sql)
@@ -14,16 +21,16 @@ Formålet med normalisering er at undgå redundans og gøre databasen lettere at
 
 *Redundans er er gentagelser - Når en information står flere gange*
 
-Der findes 6 normalformer og en "stramning" af den tredje ved navn Boyce-Cood normalformen.
+Der findes 6 normalformer, men typisk fortager man kun en normalisering op til den tredje normalform.
 
-Typisk fortager man kun en normalisering op til den tredje normalform.
-
+### Huskeregel
+*The key, the whole key, and nothing but the key, so help me Codd.* 
 
 **1. Normalform (NF1)**
 
 **Definition:** *En relation er på første normalform, hvis ingen af dens domæner har elementer, der i sig selv er mængder.*
 
-* Tabellen har et nøglefelt (behøver ikke at være unikt)
+* Tabellen har et nøglefelt. 
 * Der må kun være en værdi af samme type i hver post
 * Alle poster skal være lige lange dvs. have samme antal felter
 
@@ -34,14 +41,14 @@ Typisk fortager man kun en normalisering op til den tredje normalform.
 
 * Tabellen skal opfylder 1. Normalform
 * Der skal være en primærnøgle
-
+* Ingen felter må være afhængige af en del af primærnøglen.
 
 **3. normalform (NF3)**
 
 **Definition:** *En relation er på tredje normalform, hvis den er på anden normalform og det gælder, at ingen ikke-nøgle-attribut er transitivt afhængig af nogen kandidatnøgle i relationen.*
 
 * Tabellen skal opfylder 2. Normalform
-* Hvis der er mere end et felt der kan sættes som nøgle for andre felter, skal tabellen opdeles i flere
+* Hvis der er mere end et felt der kan sættes som nøgle for andre felter, skal tabellen opdeles i flere tabeller.
 
 {pagebreak}
 
@@ -76,9 +83,7 @@ Over Skole i normalform 3. Med angivelse af datatyper og relationer melle de 5 t
 Du kan bruge Workbench til at tegne dit ER-diagram. Jeg vil dog altid anbefale at du starter med tegne ER-Diagrammet på et stykke papir.
 
 **SQL kode**
-Du kan hente SQL koden her:   
-
-{pagebreak}
+Du kan hente SQL koden [her](sql/Skole.sql) 
 
 ## Relationer
 MySQL er en relationel database, hvilket betyder at data er opdelt i tabeller, som det er muligt at oprette relationer i mellem.
@@ -142,7 +147,6 @@ Dette løses var at oprette en ekstra tabel - Order_details - Da denne relatione
 
 ![](images/orders_order_details_products.jpg)
 
-{pagebreak}
 
 ## JOIN
 Du skal bruge SQL kommandoen **JOIN** for hente data fra flere tabeller.

@@ -1,5 +1,5 @@
 # Grundlæggende database 2020 forår
-AU obligatorisk database forår 2020
+AU obligatorisk database Efterår 2022
 
 GitHub Studerende link
-[Link](https://Hartmannsolution/au_database_2020/)
+[Link](https://github.com/HartmannSolution/au_database_2020/)

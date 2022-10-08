@@ -1,6 +1,13 @@
-[Retur](README.md)
+# Kursusgang 5: Stored Procedure og Triggers
+1. Stored Procedures
+  - Variables
+  - Delimiters
+  - Create and Drop
+2. Triggers
+  - Hvorfor og hvornår bruger vi dem
+3. Transactions
+  - [See more](https://www.mysqltutorial.org/mysql-transaction.aspx)
 
-# Kursusgang 5
 
 ### SQL fil
 [Link til SQL fil](https://www.dropbox.com/s/g71ggir8vnvw0hp/Dag_5.sql?dl=0)
@@ -268,7 +275,7 @@ slides for dag 5 - [slides dag 5](https://drive.google.com/file/d/1sMNTAf9BNdq3P
 
 Noter for dag 5 - [Noter dag 5](noter_dag_5.sql "noter_dag_5.sql")
 
-### Næste gang 18. maj
+### Til næste gang:
 
 Helt færdigt ER-diagram
 
@@ -276,4 +283,3 @@ Stored Procedure
 
 Trigger 
 
-[Retur](README.md)

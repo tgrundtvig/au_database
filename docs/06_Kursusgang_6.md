@@ -1,4 +1,7 @@
-# Kursusgang 6
+# Kursusgang 6: Access Control og Backup
+1. Access Control 
+2. Backup og Restore
+3. Eksamensspørgsmålseksempler
 
 ## MySQL Access Control System
 

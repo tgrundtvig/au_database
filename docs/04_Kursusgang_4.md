@@ -1,8 +1,10 @@
-[Retur](README.md)
 
-[Slide](slide_4.html)
+# Kursusgang 4: Funtioner
+1. Funtioner
+2. GROUP BY og HAVING
+3. INDICES
+4. CASES
 
-# Kursusgang 4
 
 ### SQL fil
 [Link til SQL fil](https://www.dropbox.com/s/86f940rvfq62giu/Dag_4.sql?dl=0)
@@ -267,4 +269,3 @@ noter for dag 4 - [noter dag 4]( https://drive.google.com/open?id=13OWzswBtLqkmZ
 
 Løsning til opgave 4 - [Løsning opgave 4](sql_filer/Opgave_4.sql)
 
-[Retur](README.md)

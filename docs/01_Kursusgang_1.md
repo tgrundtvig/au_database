@@ -1,6 +1,19 @@
-[Retur](README.md)
-
-# Kursusgang 1
+# Kursusgang 1: Reading Data
+1. Denne første kursusgang sikrer vi at alle har en fungerende installation. Jvf.  [dette dokument](00_install.md). 
+2. CRUD (Create, Read, Update, Delete) er de 4 grundlæggende ting vi kan gøre med databaser.
+3. Vi skal i dag se på READ delen af CRUD.
+4. Emnerne er:
+  - Installation
+  - Workbench
+  - Northwind og Employee demo databaser
+    - Hvordan læser man E/R Diagrammer
+  - Select statement:
+    - SELECT (columns)
+	- FROM (table)
+	- WHERE (filter)
+	- DISTINCT
+	- AND, OR, NOT, BETWEEN, IN
+	- ORDER BY: DESC, ASC
 
 ## Introduktion
 Det er Open Source databasen - MySQL du skal bruge.
@@ -10,24 +23,6 @@ Den kan installeres på Windows, Mac og Linux.
 Du kan læse mere om MySQL her: [Link](https://www.mysql.com "www.mysql.com")
 
 
-## MySQL Installation
-**Windows**
-
-Du kan finde en vejledning for installation på Windows her: [Link](https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html "https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html")
-
-
-**Installationsvideo Windows (MySQL, WorkBench)**
-
-Du kan finde en Installationsvideo til Windows her: [Link](https://www.youtube.com/watch?v=xRMYVBefHY4)
-
-**Mac**
-
-Du kan finde en vejledning for installation på Mac her: [Link](https://dev.mysql.com/doc/refman/8.0/en/osx-installation.html "https://dev.mysql.com/doc/refman/8.0/en/osx-installation.html")
-
-**Installationsvideo Mac (MySQL, WorkBench, installation af Northwind og Employees)**
-
-Du kan finde en Installationsvideo til Mac her: [Link](https://www.youtube.com/watch?v=DZuMvmvpo6w)
-
 ## Demo databaser
 *Hvad er et database kursus uden data?*
 
@@ -36,7 +31,7 @@ Der er 2 demo databaser vi skal bruge på dette kursus:
 * Northwind
 * Employees
 
-## Northwind
+### Northwind
 Denne database er en Microsoft har brugt i mange år. Den indeholder 13 tabeller
 
 **ER-diagram - Northwind**
@@ -326,27 +321,17 @@ For at sortere i faldende orden skal du bruge **DESC**.
 	select * from Order_Details
 	order by UnitPrice DESC;
 ```
-# Næste gang - 20. april 
-I skal læse følgende i SQL in easy steps
+# Næste gang:
+I skal læse følgende i `SQL in easy steps`
 
 - Kapitel 1 - Introducing SQL (Frivilligt, da vi allerede har installeret)
 - Kapitel 2 - Getting started 
 - Kapitel 3 - Creating database tables
 - Kapitel 4 - Inserting data into tables
 
-I skal løse **Opgave 1**
+I skal løse [**Opgave 1**](01_opgave.md)
 
-I skal lave en **kort (1/2 A4 side) beskrivelse af jeres projekt**, Den skal afleveres på Moodle som en **PDF** fil
+I skal lave en **kort (1/2 A4 side) beskrivelse af jeres eksamenprojekt**, Den skal sendes til tha@cphbusiness.dk
 
 # Opgave 1
-Du kan hente opgave 1 her som PDF - [Link](https://www.dropbox.com/s/gwv4k1luc52futs/Opgave_1.pdf?dl=0 "https://www.dropbox.com/s/gwv4k1luc52futs/Opgave_1.pdf?dl=0")
-
-Løsning til opgave 1: [Opgave 1 løsning](/sql_filer/Opgave_1.sql)
-
-Slideshow: [Slideshow fra dag 1](databaserdag1.pdf)
-
-Christian Boesens noter med eksempler fra kursusgang 1: [Link til pdf-fil](https://drive.google.com/open?id=1I8RjGXzuPrZN3wWiFywdq0tXSzr-aoZA "https://drive.google.com/open?id=1I8RjGXzuPrZN3wWiFywdq0tXSzr-aoZA")
-
-[Retur](README.md)
-
-
+Hent den [her](01_opgave.md)
