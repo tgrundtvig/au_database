@@ -2,6 +2,7 @@
 1. Normalisering
   - Første, anden og tredje normalform.
 2. Relationer mellem tabeller: OneToMany, OneToOne, ManyToMany.
+  - Fremmednøgler
 3. Join af tabeller.
   - INNER JOIN
   - LEFT/RIGHT JOIN
@@ -143,12 +144,12 @@ I Northwind databasen er der mange ordre og der er mange produkter - hver ordre 
 
 Der er altså en **Mange til Mange** relation mellem tabellerne **Orders** og **Products**.
 
-Dette løses var at oprette en ekstra tabel - Order_details - Da denne relationen mellem de to tabeller **ikke** kan oprettes direkte.
+Dette løses var at oprette en ekstra (mellem)-tabel - Order_details - Da denne relationen mellem de to tabeller **ikke** kan oprettes direkte.
 
 ![](images/orders_order_details_products.jpg)
 
 
-## JOIN
+## JOIN: Hent data fra relaterede tabeller
 Du skal bruge SQL kommandoen **JOIN** for hente data fra flere tabeller.
 
 Der findes 4 forskellige **JOIN** typer:
@@ -156,7 +157,6 @@ Der findes 4 forskellige **JOIN** typer:
 * INNER JOIN  
 * LEFT JOIN  
 * RIGHT JOIN
-* FULL JOIN (ikke understøttet i MySQL)
 * SELF JOIN
 
 ### INNER JOIN
@@ -196,6 +196,8 @@ Tabellen **Employees** i Northwind databasen har et eksempel på dette.
 
 Der er ef felt **ReportsTo** der referer til primærnøglen **EmployeeID** i sammen tabel.
 
+### Eksempler på JOIN i komplekse SELECT statements
+``
 
 ## VIEW
 Et **VIEW** kan betragtes som en virtuel tabel. 
