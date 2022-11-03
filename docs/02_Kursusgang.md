@@ -32,7 +32,7 @@ SHOW DATABASES;
 
 ## Datatyper
 Hvert felt en database har et navn og en datatype.   
-Datatypen "styre" hvilke data det er muligt at gemme i feltet.
+Datatypen "styrer" hvilke data det er muligt at gemme i feltet.
 I MySQL er datatyperne opdelt i 3 hovedgrupper:
 
 * Tekst
@@ -336,7 +336,7 @@ Fjern markering i **Safe Updates**
 
 ![SafeUpdate](images/safeupdate.png)
 
-# Næste gang - 27. april
+# Næste gang - 10. november
 I skal læse følgende i SQL in easy steps
 
 Kapitel 13 - joining database tables
