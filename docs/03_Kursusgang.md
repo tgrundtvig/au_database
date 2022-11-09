@@ -41,7 +41,6 @@ Der findes 6 normalformer, men typisk fortager man kun en normalisering op til d
 **Definition:** *En relation er på anden normalform, hvis den er på første normalform, og hvis enhver ikke-nøgle-attribut er fuldt funktionelt afhængig af enhver kandidatnøgle i relationen.*
 
 * Tabellen skal opfylder 1. Normalform
-* Der skal være en primærnøgle
 * Ingen felter må være afhængige af en del af primærnøglen.
 
 **3. normalform (NF3)**
