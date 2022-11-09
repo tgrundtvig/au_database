@@ -11,11 +11,11 @@
 5. Import / Export.
 
 ### SQL fil
-[Link til SQL fil](/sql_filer/Dag_3.sql)
+[Link til SQL fil](sql/Dag_3.sql)
 
-[Postnummer CSV](/sql_filer/postnumer.csv)
+[Postnummer CSV](sql/postnummer.csv)
 
-[Link til SQL Demo Ansatte](/sql_filer/Dag_3_Ansatte.sql)
+[Link til SQL Demo Ansatte](sql/Dag_3_Ansatte.sql)
 
 ## Normalisering
 Formålet med normalisering er at undgå redundans og gøre databasen lettere at vedligeholde.
@@ -25,7 +25,7 @@ Formålet med normalisering er at undgå redundans og gøre databasen lettere at
 Der findes 6 normalformer, men typisk fortager man kun en normalisering op til den tredje normalform.
 
 ### Huskeregel
-*The key, the whole key, and nothing but the key, so help me Codd.* 
+*The key, the whole key, and nothing but the key, so help me Codd.* (Edgar F. Codd, Opfinder af "relational database model" var IBM researcher i 1970)
 
 **1. Normalform (NF1)**
 
