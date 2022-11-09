@@ -15,8 +15,6 @@
 
 [Postnummer CSV](sql/postnummer.csv)
 
-[Link til SQL Demo Ansatte](sql/Dag_3_Ansatte.sql)
-
 ## Normalisering
 Formålet med normalisering er at undgå redundans og gøre databasen lettere at vedligeholde.
 
@@ -50,8 +48,6 @@ Der findes 6 normalformer, men typisk fortager man kun en normalisering op til d
 * Tabellen skal opfylder 2. Normalform
 * Hvis der er mere end et felt der kan sættes som nøgle for andre felter, skal tabellen opdeles i flere tabeller.
 
-{pagebreak}
-
 ### Eksempel - Skole
 Udgangspunktet er et regneark der bruges til at registere elever og deres karakterer.
 
@@ -84,6 +80,28 @@ Du kan bruge Workbench til at tegne dit ER-diagram. Jeg vil dog altid anbefale a
 
 **SQL kode**
 Du kan hente SQL koden [her](sql/Skole.sql) 
+
+### "Foreign Key constraint" i koden
+```sql
+ALTER table_name
+ADD CONSTRAINT constraint_name
+FOREIGN KEY foreign_key_name(columns)
+REFERENCES parent_table(columns)
+ON DELETE action
+ON UPDATE action;
+```
+:
+```sql
+CREATE TABLE ArbejdsSteder 
+(
+	idArbejdssteder INT PRIMARY KEY AUTO_INCREMENT,
+	Stednavn VARCHAR(45) NULL,
+	Adresse VARCHAR(45) NULL,
+	Postnr VARCHAR(12),
+    FOREIGN KEY (Postnr) REFERENCES PostNrBy(Postnr)
+);
+```
+Hvor PostNrBy er navnet på tabellen og Postnr er navnet på tabellens primærnøgle.
 
 ## Relationer
 MySQL er en relationel database, hvilket betyder at data er opdelt i tabeller, som det er muligt at oprette relationer i mellem.

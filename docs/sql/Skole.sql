@@ -1,8 +1,4 @@
-/*
-	Skole / Klasse
-    Normaliserings eksempel
-    Tue Hellstern
-*/
+
 -- Opret Database
 create database Skole;
 use Skole;

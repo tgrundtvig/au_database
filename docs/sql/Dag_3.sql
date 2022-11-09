@@ -1,9 +1,3 @@
-/*
-	Demo
-    En til En relation
-    Tue Hellstern
-*/
-
 create database test;
 use test;
 
@@ -21,10 +15,7 @@ create table Oplysninger
     Pension double
 );
 
-/*
-	JOINS
-    Tue Hellstern
-*/
+
 
 -- INNER JOIN
 create database Demo_Join;

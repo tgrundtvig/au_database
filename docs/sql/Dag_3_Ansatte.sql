@@ -3,8 +3,6 @@
     - Mange til Mange relation
     - Løsning med "mellem" tabel
     - Tabel med 2 felter som en kombineret Primær nøgle
-
-	Tue Hellstern
 */
 
 -- Opret Database
