@@ -7,7 +7,7 @@
 
 
 ### SQL fil
-[Link til SQL fil](https://www.dropbox.com/s/86f940rvfq62giu/Dag_4.sql?dl=0)
+[Link til SQL fil](sql/Dag_4.sql)
 
 ## Funktioner
 
@@ -29,11 +29,11 @@ SELECT
 FROM Orders;
 ```
 
-Du kan finde en oversigt her [Link](https://dev.mysql.com/doc/refman/8.0/en/func-op-summary-ref.html)
+Der er en oversigt her [Link](https://dev.mysql.com/doc/refman/8.0/en/func-op-summary-ref.html)
 
 ## Beregninger
 
-Du har også mulighed for at foretage beregninger på dine data, det kan være simple beregninger som det at gange to kolonner med hinanden, eller det kan være beregninger hvor du bruger funktioner.
+Vi har også mulighed for at foretage beregninger på vores data, det kan være simple beregninger som det at gange to kolonner med hinanden, eller det kan være beregninger hvor du bruger funktioner.
 
 **SQL Beregninger**
 
@@ -85,7 +85,7 @@ FROM Order_Details;
 
 
 ## GROUP BY
-GROUP BY-sætningen bruges ofte sammen med en beregningsfunktioner som fx AVG, MIN, MAX, COUNT og SUM til at gruppere dit resultat.
+GROUP BY-sætningen bruges sammen med en beregningsfunktioner som fx AVG, MIN, MAX, COUNT og SUM til at gruppere dit resultat.
 
 Det kan f.eks. være det totale salg på en kunde eller et produkt.
 
@@ -250,7 +250,7 @@ END AS 'Antal ordre'
 FROM Order_Details;
 ```
 
-Biblioteksopgave - [Link](https://docs.google.com/document/d/1DzlYTivp-5S8hoOtynDtkQIzDpKc2A55QAZ4VXTv208/edit?usp=sharing "https://docs.google.com/document/d/1DzlYTivp-5S8hoOtynDtkQIzDpKc2A55QAZ4VXTv208/edit?usp=sharing")
+Biblioteksopgave - [Link](04-ClassExercise.md)
 
 
 ## Til næste gang:
@@ -259,7 +259,7 @@ Løsning til Opgave 4
 
 Færdigt ER-diagram
 
-Overvejelser i forhold til Indexer
+Overvejelser i forhold til Indices (Index i flertal)
 
 
 ## Opgave 4, slides, løsning og noter 

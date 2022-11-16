@@ -77,7 +77,7 @@ Databasen **employees** er nu oprettet. Nu skal data importeres fra *Dump* filer
 2. Klik **Data import**
 3. Vælg filen **DumpEmployees.sql** under **Import from Self-Contained File**
 4. Vælg **Default Target Schema** til **employees**
-5. Vælg **Dump Data Omly** i drop down menu
+5. Vælg **Dump Data Only** i drop down menu
 6. Klik på **Start Import** (Det tager "lidt" tid før den er færdig! - Når knappen **Import Agin** er aktiv er importen slut)
 
 ![Import Dump](images/import.jpg)

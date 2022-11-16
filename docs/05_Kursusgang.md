@@ -10,7 +10,7 @@
 
 
 ### SQL fil
-[Link til SQL fil](https://www.dropbox.com/s/g71ggir8vnvw0hp/Dag_5.sql?dl=0)
+[Link til SQL fil](sql/Dag_5.sql)
 
 ## STORED PROCEDURE
 
