@@ -34,7 +34,7 @@ GO;
 Når du skal "køre"/afvikle en STORED PROCEDURE skal du bruge denne SQL kommando:
 
 ```
-EXEC procedure_navn;
+CALL procedure_navn;
 ```
 
 En SP bliver gemt i databasen, du kan se hvilke SP der ligger på den enkelte database i mappen **Stored Procedueres**
@@ -217,6 +217,7 @@ END $$
 
 DELIMITER ;
 ```
+*Vi kan godt få lov at oprette denne trigger selvom tabellen: 'employees_audit' ikke eksisterer, men når vi prøver efterfølgende at lave en opdatering i employees tabellen får vi en fejl.*
 
 En TRIGGER bliver gemt "under"/på en tabel - den tabel som en af de tre handlinger udføres på.
 
@@ -269,7 +270,7 @@ Du sletter en TRIGGER ved at bruge denne SQL kommando
 DROP TRIGGER trigger_navn;
 ```
 
-
+[Trigger Reference](https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html)
 
 ### Til næste gang:
 

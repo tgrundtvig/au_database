@@ -29,7 +29,7 @@ SELECT
 FROM Orders;
 ```
 
-Der er en oversigt her [Link](https://dev.mysql.com/doc/refman/8.0/en/func-op-summary-ref.html)
+Der er en oversigt her [Link](https://dev.mysql.com/doc/refman/8.0/en/built-in-function-reference.html)
 
 ## Beregninger
 
