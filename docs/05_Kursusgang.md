@@ -273,10 +273,7 @@ DROP TRIGGER trigger_navn;
 [Trigger Reference](https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html)
 
 ### Til næste gang:
-
-Helt færdigt ER-diagram
-
-Stored Procedure 
-
-Trigger 
+1. Lav 05_opgave færdig og lav dit ER-diagram helt færdigt
+2. Lav Stored Procedures på egen database
+3. Lav Trigger til egen database
 
