@@ -19,20 +19,17 @@ Once a connection is established successfully, for each statement issued by the 
 
 There is a database named mysql created automatically by MySQL installer. 
 
+### Following tables are useful to know:
 **user**
-
 contains user account and global privileges columns. MySQL uses the user table to either accept or reject a connection from a host. A privilege granted in the user table is effective to all databases on the MySQL server.
 
 **db**
-
 contains database level privileges. MySQL uses the db table to determine which database a user can access and from which host. A privilege granted at the database level in the db table applies to the database and all objects belong to that database e.g., tables, triggers, views, stored procedures, etc.
 
 **table_priv** and **columns_priv**
-
 contains table-level and column-level privileges. A privilege granted in the table_priv table applies to the table and its columns while a privilege granted in the columns_priv table applies only to a specific column of a table.
 
 **procs_priv**
-
 contains stored functions and stored procedures privileges
 
 ## Users
@@ -45,6 +42,20 @@ For example, if the root user connects from the cphbusiness.dk host to the d
 
 This allows you to setup multiple accounts with the same name but connects from different hosts and have different privileges.
 
+### Usefull commands
+- **CREATE USER** statement is used to create a new user account. The CREATE USER statement requires the CREATE USER privilege: `CREATE USER 'username'@'host' IDENTIFIED BY 'password';`
+- **DROP USER** statement is used to delete a user account. The DROP USER statement requires the DROP USER privilege: `DROP USER 'username'@'host';`
+- [**GRANT**](https://dev.mysql.com/doc/refman/8.0/en/grant.html) statement is used to grant privileges to a user account. The GRANT statement requires the GRANT OPTION privilege: 
+  - `GRANT privilege ON database.table TO 'username'@'host';`
+  - `GRANT ALL PRIVILEGES ON *.* TO 'username'@'host';`
+  - `GRANT ALL PRIVILEGES ON *.* TO 'dev'@'%' ;`
+- **REVOKE** statement is used to revoke privileges from a user account. The REVOKE statement requires the GRANT OPTION privilege.
+- **SHOW GRANTS** statement is used to display the privileges granted to a user account. The SHOW GRANTS statement requires the SHOW GRANTS privilege.
+  - `SHOW GRANTS FOR 'dev'@'%';`
+- **SET PASSWORD** statement is used to set a password for a user account. The SET PASSWORD statement requires the CREATE USER privilege.
+- **ALTER USER** statement is used to modify a user account. The ALTER USER statement requires the CREATE USER privilege.
+  - `ALTER USER 'username'@'host' IDENTIFIED BY 'password';` Change password
+  - `ALTER USER 'username'@'host' COMMENT 'new information';` Change comment
 ### Grant Privileges to Account
 
 MySQL provides you with the MySQL GRANT statement that allows you to grant access privileges to database accounts.
@@ -85,6 +96,13 @@ By executing the above command, all database structure and data will be exported
 
  - Alle databaser	--all-database
   - mysqldump -u root -p --all-databases > all_db.sql
+
+### Useful commands
+*When logged in to the server: `docker exec -it mysql_container bash`* from the command line.
+- `mysqldump -u dev -p --all-databases > all_db.sql` Backup all database`
+- `mysqldump -u dev -p --databases classicmodels northwind > classi_nord.sql` Backup multiple databases
+- `mysql -u dev -p < all_db.sql` restore multiple databases
+- `mysql -u dev -p northwind < northwind.sql` restore single database
 
 ## Deployment
 Eksempel på server: [Digital Ocean](https://www.digitalocean.com/).
