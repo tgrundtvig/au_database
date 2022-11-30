@@ -25,3 +25,55 @@ For at komme i gang med dette mini projekt er der følgende delelementer at forh
 Til eksamen tager vi udgangspunkt i jeres database og de problemstillinger den løser.
 
 **Til eksamen skal i medbringe 3 print af jeres ER-diagram**
+
+## Eksamens spørgsmål - Eksempler
+
+### Normalisering
+        ◦ Hvorfor gør vi dette?
+        ◦ Hvad opnår du?
+        ◦ Antal Normalformer
+
+### Er Diagrammer
+        ◦ Hvorfor
+        ◦ Hvilke fordele giver de – Hvornår skal de oprettes
+
+### Datatyper
+        ◦ Valg af datatype - Hvilken betydning har dette
+        ◦ Datatype til Primærnøgle og hvorfor
+        ◦ Hvad er en DEFAULT Value og hvordan kan den bruges
+
+### Relationer
+        ◦ Typer 1:M – 1:1 – M:M
+        ◦ Felter – PK/FK
+        ◦ INNER/LEFT/RIGHT JOIN
+
+### View
+        ◦ Fordele
+        ◦ Opdatering er det muligt?
+
+### Index
+        ◦ Hvad er det
+        ◦ Hvilke felter vil du typisk oprette Index på
+        ◦ Type (PK/FK) og Datatype
+
+### Stored Procedures
+        ◦ Hvad er dette?
+        ◦ Hvor gemmes disse – kan de ”ramme” flere tabeller?
+        ◦ Har du et eksempel?
+
+### Trigger
+        ◦ Hvad er dette?
+        ◦ Hvad "Trigger" dem?
+        ◦ Hvor gemmes disse?
+        ◦ Har du et eksempel?
+
+### Sikkerhed
+        ◦ Backup – hvor tit?
+        ◦ Brugere
+
+### SQL Kommandoer
+        ◦ WHERE // IN // BETWEEN
+        ◦ GROUP BY – Funktioner SUM/AVG/COUNT  --  HAVING
+        ◦ CASE
+
+### Opfyldte din database målet?

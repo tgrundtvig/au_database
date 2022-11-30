@@ -49,11 +49,7 @@ This allows you to setup multiple accounts with the same name but connects from 
 
 MySQL provides you with the MySQL GRANT statement that allows you to grant access privileges to database accounts.
 
-
-
-
 ## Backup - mysqldump
-
 How to Backup Databases Using mysqldump Tool
 
 MySQL GUI tools such as phpMyAdmin, SQLyog and etc, often provide features for backup MySQL databases with ease. 
@@ -64,7 +60,6 @@ As the result, the backup process increases the locking and available time of th
 MySQL provides a very useful tool for backup or dump MySQL databases locally on the server very fast. The backup file is stored in the file system in the server so you just need to download it when needed.
 
 ### mysqldump Tool
-
 The parameter of the command mysqldump
 
 **username**	valid MySQL username
@@ -91,55 +86,3 @@ By executing the above command, all database structure and data will be exported
  - Alle databaser	--all-database
   - mysqldump -u root -p --all-databases > all_db.sql
 
-
-# Eksamens spørgsmål - Eksempler
-
-### Normalisering
-        ◦ Hvorfor gør vi dette?
-        ◦ Hvad opnår du?
-        ◦ Antal Normalformer
-
-### Er Diagrammer
-        ◦ Hvorfor
-        ◦ Hvilke fordele giver de – Hvornår skal de oprettes
-
-### Datatyper
-        ◦ Valg af datatype - Hvilken betydning har dette
-        ◦ Datatype til Primærnøgle og hvorfor
-        ◦ Hvad er en DEFAULT Value og hvordan kan den bruges
-
-### Relationer
-        ◦ Typer 1:M – 1:1 – M:M
-        ◦ Felter – PK/FK
-        ◦ INNER/LEFT/RIGHT JOIN
-
-### View
-        ◦ Fordele
-        ◦ Opdatering er det muligt?
-
-### Index
-        ◦ Hvad er det
-        ◦ Hvilke felter vil du typisk oprette Index på
-        ◦ Type (PK/FK) og Datatype
-
-### Stored Procedures
-        ◦ Hvad er dette?
-        ◦ Hvor gemmes disse – kan de ”ramme” flere tabeller?
-        ◦ Har du et eksempel?
-
-### Trigger
-        ◦ Hvad er dette?
-        ◦ Hvad "Trigger" dem?
-        ◦ Hvor gemmes disse?
-        ◦ Har du et eksempel?
-
-### Sikkerhed
-        ◦ Backup – hvor tit?
-        ◦ Brugere
-
-### SQL Kommandoer
-        ◦ WHERE // IN // BETWEEN
-        ◦ GROUP BY – Funktioner SUM/AVG/COUNT  --  HAVING
-        ◦ CASE
-
-### Opfyldte din database målet?
