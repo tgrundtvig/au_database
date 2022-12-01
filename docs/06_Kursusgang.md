@@ -43,7 +43,8 @@ For example, if the root user connects from the cphbusiness.dk host to the d
 This allows you to setup multiple accounts with the same name but connects from different hosts and have different privileges.
 
 ### Usefull commands
-- **CREATE USER** statement is used to create a new user account. The CREATE USER statement requires the CREATE USER privilege: `CREATE USER 'username'@'host' IDENTIFIED BY 'password';`
+- **Show users on the system**: `USE mysql; SELECT host, user FROM user;`
+- **CREATE USER** statement is used to create a new user account. The CREATE USER statement requires the CREATE USER privilege: `CREATE USER 'username'@'host' IDENTIFIED BY 'password';`
 - **DROP USER** statement is used to delete a user account. The DROP USER statement requires the DROP USER privilege: `DROP USER 'username'@'host';`
 - [**GRANT**](https://dev.mysql.com/doc/refman/8.0/en/grant.html) statement is used to grant privileges to a user account. The GRANT statement requires the GRANT OPTION privilege: 
   - `GRANT privilege ON database.table TO 'username'@'host';`
