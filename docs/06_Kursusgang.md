@@ -41,6 +41,7 @@ Therefore, an account in MySQL consists of username and hostname where the user 
 For example, if the root user connects from the cphbusiness.dk host to the database server the account name would be root@cphbusiness.dk.
 
 This allows you to setup multiple accounts with the same name but connects from different hosts and have different privileges.
+- `SELECT user, host, user_attributes FROM mysql.user;`
 
 ### Usefull commands
 - **Show users on the system**: `USE mysql; SELECT host, user FROM user;`
