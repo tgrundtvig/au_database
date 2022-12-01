@@ -1,5 +1,6 @@
 # Mini Projekt
 
+ZOOM: https://cphbusiness.zoom.us/my/thomashartmann?pwd=N3gzTFd6RENkUDNBaGR1bjJmajc4UT09   
 Som udgangspunkt for eksamen skal du oprette en database.
 Den skal indeholde de "emner" vi har været igennem på kurset.
 
