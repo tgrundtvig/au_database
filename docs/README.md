@@ -8,7 +8,7 @@
 |Uge 4| Torsdag 17/11-2022|Funktioner, GROUP BY og Indices|Læs kapitel 9-11 i databasebogen og lav ugens øvelser|
 |Uge 5| Torsdag 24/11-2022|Procedures og Triggers|Læs kapitel 6-8 i databasebogen. Lav ugens øvelser|
 |Uge 6| Torsdag 1/12-2022|Sikkerhed |Læs denne [artikel](https://satoricyber.com/mysql-security/mysql-security-common-threats-and-8-best-practices/). Lav ugens øvelser|
-|Uge 7| Torsdag 8/12-2022|Eksamensforberedelse|Forbered præsentation af eksamensprojekt. Forbered evt. spørgsmål omkring eksamen|
+|Uge 7| Torsdag 8/12-2022 og 15/12-2022|[Eksamensforberedelse](https://docs.google.com/spreadsheets/d/1yVyQ91FbBcRAp93aUd1B9_VvBxkGOEG-DjyyYSRo0jM/edit?usp=sharing)|Forbered præsentation af eksamensprojekt. Forbered evt. spørgsmål omkring eksamen|
 ### [Kursusgang 1](01_Kursusgang.md)
 
 * Introduktion
