@@ -51,7 +51,8 @@ This allows you to setup multiple accounts with the same name but connects from 
   - `GRANT privilege ON database.table TO 'username'@'host';`
   - `GRANT ALL PRIVILEGES ON *.* TO 'username'@'host';`
   - `GRANT ALL PRIVILEGES ON *.* TO 'dev'@'%' ;`
-- **REVOKE** statement is used to revoke privileges from a user account. The REVOKE statement requires the GRANT OPTION privilege.
+  - `GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;`
+- **REVOKE** statement is used to revoke privileges from a user account. The REVOKE statement requires the GRANT OPTIO``privilege.
 - **SHOW GRANTS** statement is used to display the privileges granted to a user account. The SHOW GRANTS statement requires the SHOW GRANTS privilege.
   - `SHOW GRANTS FOR 'dev'@'%';`
 - **SET PASSWORD** statement is used to set a password for a user account. The SET PASSWORD statement requires the CREATE USER privilege.
