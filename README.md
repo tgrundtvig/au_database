@@ -1,3 +1,3 @@
-# Grundlæggende database 2022 efterår
-AU obligatorisk database Efterår 2022
+# Grundlæggende database 2023 forår
+AU obligatorisk database Forår 2023
 [Link til indhold](docs/README.md)
