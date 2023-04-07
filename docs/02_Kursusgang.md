@@ -4,7 +4,6 @@
 3. Create/Alter table
 4. Primærnøgler
 5. Insert/Update/Delete rows
-6. 
 
 ## DATABASE
 For at oprette en ny database skal du bruge **CREATE**
