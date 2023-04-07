@@ -14,11 +14,11 @@ Når du vil skifte mellem hvilken database der er den aktive", skal du bruge **U
 **Syntaks DATABASE**
 
 ```
-	CREATE DATABASE database_navn
+	CREATE DATABASE database_navn;
 	
-	DROP DATABASE database_navn
+	DROP DATABASE database_navn;
 	
-	USE database_navn
+	USE database_navn;
 ```
 
 Du skal være opmærksom på at du **ikke** får nogle advarsler ved brugen af DROP og det er ikke muligt at fortryde denne kommando.
