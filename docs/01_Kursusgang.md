@@ -331,7 +331,7 @@ I skal læse følgende i `SQL in easy steps`
 
 I skal løse [**Opgave 1**](01_opgave.md)
 
-I skal lave en **kort (1/2 A4 side) beskrivelse af jeres eksamenprojekt**, Den skal sendes til tha@cphbusiness.dk
+I skal lave en **kort (1/2 A4 side) beskrivelse af jeres eksamenprojekt**, Den skal sendes til tog@cphbusiness.dk
 
 # Opgave 1
 Hent den [her](01_opgave.md)
