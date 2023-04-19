@@ -11,7 +11,7 @@ Du skal hente alle ansatte fra tabellen employees der er kvinder.Sorter i falden
 ## 1.5
 Find alle ansatte fra tabellen employees der har fødselsdag i december måned Tip: brug MONTH(birth_date)Resultat: 25.326 Rows
 ## 1.6
-Find alle ansatte fra tabellen employees der er ansat i enten november eller decemberTip: brug MONTH(hire_date)Resultat: 49.826 Rows
+Find alle ansatte fra tabellen employees der er ansat i enten november eller decemberTip: brug MONTH(hire_date)Resultat: 48.371 Rows
 ## 1.7
 Find alle ansatte fra tabellen employees der er ansat i november måned 1991. Tip: brug YEAR(hire_date)Resultat: 1.779 Rows
 ## 1.8
