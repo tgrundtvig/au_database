@@ -276,4 +276,5 @@ DROP TRIGGER trigger_navn;
 1. Lav 05_opgave færdig og lav dit ER-diagram helt færdigt
 2. Lav Stored Procedures på egen database
 3. Lav Trigger til egen database
+
 [Opgave 5](https://github.com/tgrundtvig/au_database/blob/master/docs/05_opgave.md)
