@@ -1,5 +1,5 @@
 # Kursusgang 1: Reading Data
-1. Denne første kursusgang sikrer vi at alle har en fungerende installation. Du kan finde og installere MySQL her: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/) Du skal bruge MySQL community server i version: 8.4.3 LTS, da dette er den seneste stable version.
+1. Denne første kursusgang sikrer vi at alle har en fungerende installation.
 3. CRUD (Create, Read, Update, Delete) er de 4 grundlæggende ting vi kan gøre med databaser.
 4. Vi skal i dag se på READ delen af CRUD.
 5. Emnerne er:
@@ -18,9 +18,38 @@
 ## Introduktion
 Det er Open Source databasen - MySQL du skal bruge.
 
-Den kan installeres på Windows, Mac og Linux. 
+Den kan installeres på Windows, Mac og Linux.
+
+Du kan finde og installere MySQL her: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/) Du skal bruge MySQL community server i version: 8.4.3 LTS, da dette er den seneste stable version.
 
 Du kan læse mere om MySQL her: [Link](https://www.mysql.com "www.mysql.com")
+
+# MySQL Workbench Introduktion
+
+MySQL Workbench er det grafiske program som du skal bruge til dit arbejde med MySQL serveren.
+
+Du kan downloade MySQL Workbench her [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/)
+
+Der findes en online manual til [Workbench](https://dev.mysql.com/doc/workbench/en/wb-intro.html)
+
+MySQL Workbench understøtter:
+
+- SQL Development
+- Data Modeling (Design)
+- Server administration
+- Data Migration
+- MySQL Enterprise Support
+
+MySQL Workbench kan findes i tre versioner; *MySQL Workbench Community Edition*, *MySQL Workbench Standard Edition* og *MySQL Workbench Enterprise Edition*.
+
+*MySQL Workbench Community Edition* er Open Source (GLP Licens) og er dermed gratis at bruge, det er den version vi kommer til at bruge.
+
+Du kan læse mere om forskellene på de tre versioner her: [MySQL Workbench Features](https://www.mysql.com/products/workbench/features.html)
+
+**Hoved vinduet i Workbench**
+![Workbench](images/workbench_1.png)
+
+
 
 
 ## Demo databaser
@@ -83,32 +112,6 @@ Databasen **employees** er nu oprettet. Nu skal data importeres fra *Dump* filer
 ![Import Dump](images/import.jpg)
 
 Databasen **employess** er nu importeret og klar til brug
-
-
-# MySQL Workbench Introduktion
-
-MySQL Workbench er det grafiske program som du skal bruge til dit arbejde med MySQL serveren.
-
-Der findes en online manual til [Workbench](https://dev.mysql.com/doc/workbench/en/wb-intro.html)
-
-MySQL Workbench understøtter:
-
-- SQL Development
-- Data Modeling (Design)
-- Server administration
-- Data Migration
-- MySQL Enterprise Support
-
-MySQL Workbench kan findes i tre versioner; *MySQL Workbench Community Edition*, *MySQL Workbench Standard Edition* og *MySQL Workbench Enterprise Edition*.
-
-*MySQL Workbench Community Edition* er Open Source (GLP Licens) og er dermed gratis at bruge, det er den version vi kommer til at bruge.
-
-Du kan læse mere om forskellene på de tre versioner her: [MySQL Workbench Features](https://www.mysql.com/products/workbench/features.html)
-
-**Hoved vinduet i Workbench**
-![Workbench](images/workbench_1.png)
-
-
 
 # SQL introduktion
 
