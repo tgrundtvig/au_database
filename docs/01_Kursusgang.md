@@ -1,8 +1,8 @@
 # Kursusgang 1: Reading Data
-1. Denne første kursusgang sikrer vi at alle har en fungerende installation. Jvf.  [dette dokument](00_install.md). 
-2. CRUD (Create, Read, Update, Delete) er de 4 grundlæggende ting vi kan gøre med databaser.
-3. Vi skal i dag se på READ delen af CRUD.
-4. Emnerne er:
+1. Denne første kursusgang sikrer vi at alle har en fungerende installation. Du kan finde og installere MySQL her: [Link](https://dev.mysql.com/downloads/mysql/) Du skal bruge MySQL community server.
+3. CRUD (Create, Read, Update, Delete) er de 4 grundlæggende ting vi kan gøre med databaser.
+4. Vi skal i dag se på READ delen af CRUD.
+5. Emnerne er:
   - Installation
   - Workbench
   - Northwind og Employee demo databaser
