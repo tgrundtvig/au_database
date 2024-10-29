@@ -1,5 +1,5 @@
 # Kursusgang 1: Reading Data
-1. Denne første kursusgang sikrer vi at alle har en fungerende installation. Du kan finde og installere MySQL her: [Link](https://dev.mysql.com/downloads/mysql/) Du skal bruge MySQL community server.
+1. Denne første kursusgang sikrer vi at alle har en fungerende installation. Du kan finde og installere MySQL her: [(https://dev.mysql.com/downloads/mysql/)](https://dev.mysql.com/downloads/mysql/) Du skal bruge MySQL community server i version: 8.4.3 LTS, da dette er den seneste stable version.
 3. CRUD (Create, Read, Update, Delete) er de 4 grundlæggende ting vi kan gøre med databaser.
 4. Vi skal i dag se på READ delen af CRUD.
 5. Emnerne er:
