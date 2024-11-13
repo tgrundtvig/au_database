@@ -19,4 +19,4 @@ Find alle ansatte fra tabellen employees der IKKE er ansat i november måned 199
 ## 1.9
 Find alle ansatte fra tabellen employees der har et emp_no mellem 20000 og 20500. Resultat: 501 Rows
 ## 1.10
-Find alle ansatte fra tabellen employees der er ansat i følgende måneder:Januar, Marts, Maj, November. Sorter efter hire_date i stigende ordenResultat: 100.581 Rows
+Find alle ansatte fra tabellen employees der er ansat i følgende måneder:Januar, Marts, Maj, November. Sorter efter hire_date i stigende orden. Resultat: 100.581 Rows
