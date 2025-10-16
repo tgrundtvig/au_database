@@ -20,7 +20,7 @@ Det er Open Source databasen - MySQL du skal bruge.
 
 Den kan installeres på Windows, Mac og Linux.
 
-Du kan finde og installere MySQL her: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/) Du skal bruge MySQL community server i version: 8.4.3 LTS, da dette er den seneste stable version.
+Du kan finde og installere MySQL her: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/) Du skal bruge MySQL community server i version: 8.4.6 LTS, da dette er den seneste stable version.
 
 Du kan læse mere om MySQL her: [Link](https://www.mysql.com "www.mysql.com")
 
