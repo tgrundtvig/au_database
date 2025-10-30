@@ -95,17 +95,17 @@ By executing the above command, all database structure and data will be exported
   - mysqldump -u root -p --no-create-info classicmodels > classicmodels.sql
 
 - Flere databaser	--databases databasenavn1 databasenavn2
-  - mysqldump -u root -p --databases classicmodels northwind > classi_nord.sql
+  - mysqldump -u root -p --databases northwind > northwind_bak.sql
 
  - Alle databaser	--all-database
   - mysqldump -u root -p --all-databases > all_db.sql
 
 ### Useful commands
-*When logged in to the server: `docker exec -it mysql_container bash`* from the command line.
+
 - `mysqldump -u dev -p --all-databases > all_db.sql` Backup all database`
-- `mysqldump -u dev -p --databases classicmodels northwind > classi_nord.sql` Backup multiple databases
+- `mysqldump -u dev -p --databases northwind > northwind_bak.sql` Backup multiple databases
 - `mysql -u dev -p < all_db.sql` restore multiple databases
-- `mysql -u dev -p northwind < northwind.sql` restore single database
+- `mysql -u dev -p northwind < docs/sql/samples/northwind.sql` restore single database
 
 ## Deployment
 Eksempel på server: [Digital Ocean](https://www.digitalocean.com/).

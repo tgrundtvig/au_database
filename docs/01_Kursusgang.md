@@ -66,16 +66,14 @@ Denne database er en Microsoft har brugt i mange år. Den indeholder 13 tabeller
 **ER-diagram - Northwind**
 
 ![Northwind](images/ER_Northwind.png)
-Kan også hentes som PDF her: [Link](https://www.dropbox.com/s/g7rp0f9ghpy6fs3/Northwind.pdf?dl=0 "https://www.dropbox.com/s/g7rp0f9ghpy6fs3/Northwind.pdf?dl=0")
+Kan også hentes som PDF her: [Northwind.pdf](sql/Northwind/Northwind.pdf)
 
-**Installation**  
+**Installation**
 Du skal følge disse trin for at få installeret *Northwind* databasen:
 
-1. Hent zip filen **Northwind.zip** herfra [Link](https://www.dropbox.com/s/t87rc4gvy7qkb2l/Northwind.zip?dl=0 "https://www.dropbox.com/s/t87rc4gvy7qkb2l/Northwind.zip?dl=0")
-2. Pak fil ud - den indeholder to filer
-3. Åben filen **Northwind.sql** i Workbench
-4. Kør filen
-5. Det tager "noget" tid at oprette databasen og indsætte data
+1.  Find filerne `northwind.sql` og `northwind-data.sql` i mappen `docs/sql/samples`.
+2.  Åbn `northwind.sql` i MySQL Workbench og kør scriptet.
+3.  Åbn `northwind-data.sql` i MySQL Workbench og kør scriptet.
 
 
 ## Employees
@@ -84,34 +82,17 @@ Se mere på deres www side - [Link](https://dev.mysql.com/doc/employee/en/ "http
  
 > The Employees sample database was developed by Patrick Crews and Giuseppe Maxia and provides a combination of a large base of data (approximately 160MB) spread over six separate tables and consisting of 4 million records in total. The structure is compatible with a wide range of storage engine types. Through an included data file, support for partitioned tables is also provided.
 
-MySQL har også en officiel beskrivelse som kan hentes her: [Link](https://downloads.mysql.com/docs/employee-en.a4.pdf "https://downloads.mysql.com/docs/employee-en.a4.pdf")
+MySQL har også en officiel beskrivelse som kan hentes her: [employee-en.a4.pdf](external_resources/employee-en.a4.pdf) eller online: [Link](https://downloads.mysql.com/docs/employee-en.a4.pdf)
 
 **ER-Diagram - Employees**
 ![Employee](images/SampleEmployees.png)
 
-Kan også hentes som PDF her: [Link](https://www.dropbox.com/s/qqvy3t2svgdnqln/ER_Employee.pdf?dl=0 "https://www.dropbox.com/s/qqvy3t2svgdnqln/ER_Employee.pdf?dl=0")
-
 
 **Installation**
-Du skal følge disse trin for at få installeret *Employee* databasen:
+Du skal følge disse trin for at få installeret *Employees* databasen:
 
-1. Hent filen zip filen: **employees.zip** herfra: [Link](https://www.dropbox.com/s/mx3eue4s35hdczc/employees.zip?dl=0 "https://www.dropbox.com/s/mx3eue4s35hdczc/employees.zip?dl=0")
-2. Pak zip-fil ud - den indeholder 2 filer
-3. Åben filen: **employess.sql** i Workbench
-4. Kør denne fil, ved at trykke på "Lynet"
-
-Databasen **employees** er nu oprettet. Nu skal data importeres fra *Dump* filer.
-
-1. Klik på **Server**
-2. Klik **Data import**
-3. Vælg filen **DumpEmployees.sql** under **Import from Self-Contained File**
-4. Vælg **Default Target Schema** til **employees**
-5. Vælg **Dump Data Only** i drop down menu
-6. Klik på **Start Import** (Det tager "lidt" tid før den er færdig! - Når knappen **Import Agin** er aktiv er importen slut)
-
-![Import Dump](images/import.jpg)
-
-Databasen **employess** er nu importeret og klar til brug
+1.  Find filen `employees.sql` i mappen `docs/sql/samples`.
+2.  Åbn `employees.sql` i MySQL Workbench og kør scriptet. This will create the database structure and import the data.
 
 # SQL introduktion
 
