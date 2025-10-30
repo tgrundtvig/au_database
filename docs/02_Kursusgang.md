@@ -23,7 +23,7 @@ Når du vil skifte mellem hvilken database der er den aktive", skal du bruge **U
 
 Du skal være opmærksom på at du **ikke** får nogle advarsler ved brugen af DROP og det er ikke muligt at fortryde denne kommando.
 
-Hvis du vil se alle de databaser der er på din MySQL server, kan du brugere denne SQL kommando
+Hvis du vil se alle de databaser der er på din MySQL server, kan du bruge denne SQL kommando
 
 ```
 SHOW DATABASES;
@@ -38,10 +38,10 @@ I MySQL er datatyperne opdelt i 3 hovedgrupper:
 * Tal
 * Dato
 
-Du kan hente en oversigt over MySQL's datatyper her: [Datatyper](MySQL_Data_Types.pdf)
+Du kan hente en oversigt over MySQL's datatyper her: [Datatyper - MySQL Official Documentation](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
 ## TABLE
-Det er i dine tabeller at data gemmes. For at oprette en tabel brugere du SQL kommandoen **CREATE TABLE**
+Det er i dine tabeller at data gemmes. For at oprette en tabel bruger du SQL kommandoen **CREATE TABLE**
 
 **Syntaks CREATE TABLE**
 

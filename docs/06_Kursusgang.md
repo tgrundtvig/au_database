@@ -52,7 +52,7 @@ This allows you to setup multiple accounts with the same name but connects from 
   - `GRANT ALL PRIVILEGES ON *.* TO 'username'@'host';`
   - `GRANT ALL PRIVILEGES ON *.* TO 'dev'@'%' ;`
   - `GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;`
-- **REVOKE** statement is used to revoke privileges from a user account. The REVOKE statement requires the GRANT OPTIO``privilege.
+- **REVOKE** statement is used to revoke privileges from a user account. The REVOKE statement requires the GRANT OPTION privilege.
 - **SHOW GRANTS** statement is used to display the privileges granted to a user account. The SHOW GRANTS statement requires the SHOW GRANTS privilege.
   - `SHOW GRANTS FOR 'dev'@'%';`
 - **SET PASSWORD** statement is used to set a password for a user account. The SET PASSWORD statement requires the CREATE USER privilege.
@@ -102,7 +102,7 @@ By executing the above command, all database structure and data will be exported
 
 ### Useful commands
 
-- `mysqldump -u dev -p --all-databases > all_db.sql` Backup all database`
+- `mysqldump -u dev -p --all-databases > all_db.sql` Backup all databases
 - `mysqldump -u dev -p --databases northwind > northwind_bak.sql` Backup multiple databases
 - `mysql -u dev -p < all_db.sql` restore multiple databases
 - `mysql -u dev -p northwind < docs/sql/samples/northwind.sql` restore single database
