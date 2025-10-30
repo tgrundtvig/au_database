@@ -276,5 +276,5 @@ Overvejelser i forhold til Indices (Index i flertal)
 
 
 ## Opgave 4, slides, løsning og noter 
-Du kan hente opgave 4 her som PDF - [Opgave 4](Opgave_4.pdf)
+Du kan hente opgave 4 her - [Opgave 4](04_opgave.md)
 

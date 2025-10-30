@@ -126,3 +126,6 @@ By executing the above command, all database structure and data will be exported
 Eksempel på server: [Digital Ocean](https://www.digitalocean.com/).
 - Follow this [guide](https://docs.google.com/document/d/1tY1QKk4CK70iH0abeetCDMgNhKFhR558V9J4_0at-9I/edit?usp=sharing) to deploy your database to a server.
 - Setup a MySql Workbench connection to your server using the IP address of your server.
+
+## Opgave 6
+Du kan hente opgave 6 her - [Opgave 6](06_opgave.md)

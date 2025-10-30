@@ -305,7 +305,7 @@ Det kan være du skal fjerne ekstra rækker eller ændre på datoformatet.
 
 
 ## Opgave 3
-Du kan hente opgave 3 her som PDF - [Opgave 3](Opgave_3.pdf)
+Du kan hente opgave 3 her - [Opgave 3](03_opgave.md)
 
 
 ## Til næste gang 

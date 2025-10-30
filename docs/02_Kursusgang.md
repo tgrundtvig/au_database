@@ -358,5 +358,5 @@ Kapitel 13 - joining database tables
 Aflevering af opgave 2
 
 # Opgave 2
-Du kan hente opgave 2 her som PDF - [Opgave 2](Opgave_2.pdf)
+Du kan hente opgave 2 her - [Opgave 2](02_opgave.md)
 
