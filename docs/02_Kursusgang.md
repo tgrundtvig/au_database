@@ -1,4 +1,19 @@
 # Kursusgang 2: DDL (Data Definition Language)
+
+## Læringsmål
+Efter denne kursusgang skal du kunne:
+- Oprette og slette databaser med CREATE og DROP
+- Forstå og anvende data typer (tekst, tal, dato)
+- Oprette tabeller med CREATE TABLE
+- Ændre tabeller med ALTER TABLE
+- Implementere primærnøgler
+- Bruge NOT NULL, DEFAULT, og AUTO_INCREMENT constraints
+- Indsætte data med INSERT INTO
+- Opdatere data med UPDATE
+- Slette data med DELETE
+- Anvende SAFE MODE korrekt
+
+## Indhold
 1. Create
 2. Datatyper
 3. Create/Alter table

@@ -1,5 +1,20 @@
 # Kursusgang 6: Access Control og Backup
-1. Access Control 
+
+## Læringsmål
+Efter denne kursusgang skal du kunne:
+- Forstå MySQL's access control system
+- Oprette og slette brugerkonti
+- Tildele privilegier til brugere med GRANT
+- Tilbagekalde privilegier med REVOKE
+- Forstå privilege niveauer (global, database, table, column)
+- Vise brugerets privilegier
+- Ændre brugerpassword
+- Udføre backup af databaser med mysqldump
+- Genskabe databaser fra backup filer
+- Implementere sikker backup strategi
+
+## Indhold
+1. Access Control
 2. Backup og Restore
 3. Eksamensspørgsmålseksempler
 

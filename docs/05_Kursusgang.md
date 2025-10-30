@@ -1,4 +1,19 @@
 # Kursusgang 5: Stored Procedure og Triggers
+
+## Læringsmål
+Efter denne kursusgang skal du kunne:
+- Oprette og afvikle stored procedures
+- Bruge variabler og parametre i procedures
+- Forstå DELIMITER og dens formål
+- Vise og slette procedures
+- Oprette og bruge triggers
+- Forstå hvornår man skal bruge triggers
+- Implementere BEFORE og AFTER triggers
+- Bruge OLD og NEW værdier i triggers
+- Forstå transactions og deres importance
+- Implementere grundlæggende error handling
+
+## Indhold
 1. Stored Procedures
   - Variables
   - Delimiters

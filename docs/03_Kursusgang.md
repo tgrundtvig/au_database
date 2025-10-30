@@ -1,4 +1,19 @@
 # Kursusgang 3 Normalisering og Table Joins
+
+## Læringsmål
+Efter denne kursusgang skal du kunne:
+- Forstå og anvende normalisering (1NF, 2NF, 3NF)
+- Identificere og eliminere redundans i data
+- Designere tabeller baseret på normalformregler
+- Implementere relationer mellem tabeller (OneToMany, OneToOne, ManyToMany)
+- Bruge fremmednøgler korrekt
+- Skrive INNER JOIN statements
+- Skrive LEFT og RIGHT JOIN statements
+- Oprette og bruge VIEWs
+- Importere data fra CSV filer
+- Eksportere data fra databasen
+
+## Indhold
 1. Normalisering
   - Første, anden og tredje normalform.
 2. Relationer mellem tabeller: OneToMany, OneToOne, ManyToMany.

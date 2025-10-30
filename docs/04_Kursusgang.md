@@ -1,5 +1,18 @@
 
 # Kursusgang 4: Funtioner
+
+## Læringsmål
+Efter denne kursusgang skal du kunne:
+- Bruge MySQL built-in funktioner (DAY, MONTH, YEAR, osv.)
+- Udføre beregninger på data (+, -, *, /, %)
+- Bruge aggregatfunktioner (AVG, MIN, MAX, COUNT, SUM)
+- Gruppere data med GROUP BY
+- Filtrere grupperet data med HAVING
+- Oprette indexes for at forbedre query performance
+- Forstå når man skal bruge indexes
+- Skrive CASE statements for conditional logic
+
+## Indhold
 1. Funtioner
 2. GROUP BY og HAVING
 3. INDICES

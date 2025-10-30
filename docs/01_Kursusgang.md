@@ -1,4 +1,16 @@
 # Kursusgang 1: Reading Data
+
+## Læringsmål
+Efter denne kursusgang skal du kunne:
+- Installere og konfigurere MySQL Server og MySQL Workbench
+- Læse og forstå ER-diagrammer
+- Skrive basic SELECT-statements
+- Filtrere data med WHERE, AND, OR, NOT, BETWEEN, og IN
+- Sortere data med ORDER BY
+- Finde unikke værdier med DISTINCT
+- Præsentere data på en struktureret måde
+
+## Indhold
 1. Denne første kursusgang sikrer vi at alle har en fungerende installation.
 3. CRUD (Create, Read, Update, Delete) er de 4 grundlæggende ting vi kan gøre med databaser.
 4. Vi skal i dag se på READ delen af CRUD.
