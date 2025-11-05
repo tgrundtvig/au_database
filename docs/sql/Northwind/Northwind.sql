@@ -3784,7 +3784,6 @@ VALUES('98052', 'Redmond                                           ', 2);
 INSERT INTO Territories (TerritoryID, TerritoryDescription, RegionID)
 VALUES('98104', 'Seattle                                           ', 2);
 
-/*
 ALTER TABLE `CustomerCustomerDemo` ADD CONSTRAINT `FK_CustomerCustomerDemo` 
     FOREIGN KEY (`CustomerTypeID`) REFERENCES `CustomerDemographics` (`CustomerTypeID`);
 
@@ -3823,7 +3822,6 @@ ALTER TABLE `Products` ADD CONSTRAINT `FK_Products_Suppliers`
 
 ALTER TABLE `Territories` ADD CONSTRAINT `FK_Territories_Region` 
     FOREIGN KEY (`RegionID`) REFERENCES `Region` (`RegionID`);
-*/
 
 /*
 Test
