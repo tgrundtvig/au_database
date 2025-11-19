@@ -93,7 +93,7 @@ Brug databasen **Northwind**.
 
 Ud fra tabellen products skal du finde de produkter hvor discontinued = 1 (true).
 
-**Resultat: 2 Rows**
+**Resultat: 0 Rows**
 
 ### 2.12
 
