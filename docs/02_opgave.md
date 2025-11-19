@@ -102,7 +102,7 @@ Brug databasen **Northwind**.
 Ud fra tabellen products skal du finde de produkter hvor prisen (list_price) er mellem 10 og 15.
 Skal sorteres faldende efter list_price.
 
-**Resultat: 6 Rows**
+**Resultat: 7 Rows**
 
 ### 2.13
 
@@ -111,4 +111,4 @@ Brug databasen **Northwind**.
 Ud fra tabellen products skal du finde de produkter der kommer fra kategori (category) 'Beverages' eller 'Condiments'.
 Skal sorteres efter category.
 
-**Resultat: 7 Rows**
+**Resultat: 8 Rows**
